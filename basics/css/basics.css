@@ -1,0 +1,291 @@
+*{
+    padding:0;
+    border:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+.clear{
+    clear: both;
+}
+.navigation-bar {
+background-color:white;
+}
+.nav-text h2{
+    font-size: 26px;
+    color: #4a4a4a;
+    padding-bottom: 10px;
+    padding-top:22px;
+}
+.nav-text h5{
+    font-size: 12px;
+    color:#4a4a4a;
+    padding-bottom: 37px;
+}
+.nav-text{
+    float:left;
+   
+}
+
+.search-bar
+{
+    float: right;
+    padding-top: 35px;
+}
+.search-btn{
+	float:right;
+	background-color: #d54346;
+	border-radius: 10px;
+	margin-left: 4px;
+	text-align: center;
+}
+
+ .search-bar a{
+	text-decoration:none;
+	font-size: 12px;
+	padding: 12px 0;
+	width:67px;
+	color: #fff;	
+}
+.search-txt
+{
+	padding:12px 9px;
+	background-color: #222;
+	width:217px;
+	border-radius:10px;
+}
+
+.menu{
+    float:left;
+}
+.menu ul{
+    padding-bottom: 25px;
+}
+
+.menu li{
+    float:left;
+    list-style-type:none;  
+}
+.menu a{
+    text-decoration: none;
+  padding-right:28px;
+color:#999;
+
+}
+.social-icons{
+    float:right;
+    margin-top: -17px;
+}
+.li:hover {
+    cursor: pointer;
+}
+.social-icons i:hover{
+color:red;
+cursor: pointer;
+  }	
+
+.social-icons i{
+    padding-left:27px;
+	color: #222;
+	border-radius: 50%;
+    font-size: 23px;
+    padding-bottom: 25px;
+  
+}
+.slider-img img{
+    padding-top:50px;
+    position: relative;
+    width:960px;
+    height:450px;
+
+}
+.trans img{
+    position: absolute;  
+    top: 430px;
+    right: 639px;
+    bottom: 15px;
+    opacity: 0.8;
+}
+.trans-text h3{
+    font-size: 22px;
+    color:#d5d5d5;
+    position: absolute;
+    left: 246px;
+    top: 482px;
+}
+.yourtitle{
+   padding-top:50px;
+}
+.yourtitle h3{
+    padding-bottom: 23px;
+}
+.yourtitle p{
+    width:298px;
+    height:76px;
+    padding-bottom: 103px;
+}
+
+.title_01 {
+    float:left;
+    padding-right:22px;
+}
+.title_01  a{
+	padding: 10px 12px;
+	background-color: #d54346;
+	color: #fff;
+    border-radius: 10px;
+}
+.line h2{
+    color:#e2e2e2;
+    padding-top:50px;
+}
+
+.service-heading{
+    padding-bottom: 30px;
+}
+.service-heading h4{
+    font-size: 16px;
+  display: inline-block;
+    padding-top:50px;
+
+}
+.service-heading h2{
+    font-size: 16px;
+ padding-right:300px;
+    padding-top:50px;
+float:left;
+}
+
+.service_01 img{
+    float:left;
+    padding-right:15px;
+  
+}
+.service-details h4{
+   
+    padding-bottom: 10px;
+    color:#d54346;
+    font-size: 14px;
+}
+.service-details p{
+    color:#999;
+    font-size: 13px;
+    width: 410px;
+    height:55px;   
+}
+.service_01{
+    padding-bottom: 57px;
+}
+.service-details{
+    float:left;
+}
+.aboutus-img img{
+    float:left;
+    padding-left: 50px;
+    padding-right: 24px;
+    height: 156px;
+    width:235px;
+}
+
+.aboutus-text1 p{
+    width: 185px;
+	
+	float:left;
+	font-size:13px;
+	color: #999;
+	line-height:1.4;
+}
+.aboutus-text2 {
+   float:left;
+}
+.aboutus-text2 p{
+    width: 455px;
+    line-height: 1.4;
+    color: #999;
+    padding-top: 17px;
+    font-size: 13px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+.aboutus-text2 a{
+	padding: 10px 12px;
+	background-color: #d54346;
+	color: #fff;
+    border-radius: 10px;
+    float: right;
+}
+
+
+.testimonial-block{
+	float:left;
+}
+
+.testi-heading h3{
+	font-size:16px;
+	color:#999;
+	padding-top:26px;
+    padding-bottom: 24px;
+    padding-left: 50px;
+}
+.testi-heading img{
+    padding-left:50px;
+    float:left;
+    padding-right:13px;
+}
+
+
+.testi-heading h1{
+
+	color: #999;
+	font-size:16px;
+	padding-bottom: 9px;
+
+}.testi-heading{
+    padding-bottom: 10px;
+}
+
+.testi-heading h5{
+    
+	color: #d54346;
+	font-size:13px;
+	padding-bottom: 7px;
+	
+}
+.testi-heading p{
+    float:right;
+    padding-top:17px;
+}
+.test-dsrcp{
+	float:right;
+}
+
+.test-dsrcp p {
+	font-size: 13px;
+	color: #777;
+	line-height: 1.2;
+    width: 439px;
+	padding-left:50px;
+    margin-top: 10px;
+
+}
+
+
+.copyright h2{
+	font-size:13px;
+	color: #999;
+    padding-top:20px;
+    float:left;
+    padding-bottom: 20px;
+}
+
+.copyright h3{
+	font-size:13px;
+	color: #999;
+    padding-top:20px;
+    float:right;
+    padding-bottom: 20px;
+}
+	
